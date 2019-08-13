@@ -1,0 +1,1072 @@
+.page1{
+  height: 800px;
+  width: 100%;
+  background-image: url("images/top_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  &__header{
+    display: flex;
+    width: 68.7%;
+    height: 40px;
+    margin: 0 13.8% 0 17.3%;
+    padding-top: 20px;
+    &__left{
+      width: 22.1%;
+      display: flex;
+      margin-right: 8%;
+      &__logo{
+        width: 31.56%;
+      }
+      &__name{
+        line-height: 48px;
+        margin-left: 4.5%;
+        width: 64%;
+        font-size: 1.1vw;
+        font-weight: 500;
+      }
+    }
+    &__right{
+      width: 69.8%;
+      &__list{
+        display: inline;
+        margin-right: 2.89%;
+        a {
+          font-size: 1vw;
+          text-decoration: none;
+          color: #333333;
+          line-height: 48px;
+        }
+      }
+    }
+  }
+  &__middle{
+    height: 600px;
+    width: 65.2%;
+    margin: 0 auto;
+    position: relative;
+    &__sub{
+      position: absolute;
+      bottom: 24%;
+      max-width: 33%;
+    }
+    &__title{
+      position: absolute;
+      top: 73%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__notice{
+    height: 100px;
+    width: 58.3%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 40px;
+    &__title{
+      font-size: 1vw;
+      margin-right: 4%;
+      color: deepskyblue;
+    }
+    &__list1{
+      width: 110%;
+      font-size: 0.9vw;
+      font-weight: 100;
+      margin-bottom: 8px;
+      color: #666666;
+      list-style: none;
+      display: flex;
+      &__date{
+        margin-right: 3%;
+        width: 14.1%;
+      }
+      &__text{
+
+      }
+    }
+  }
+}
+.page2{
+  height: 850px;
+  background-color: #E0FFFF;
+  width: 100%;
+  &__image{
+    margin: 0 9% 0 17.3%;
+    padding-top: 70px;
+    height: 200px;
+    position: relative;
+    &__title{
+      max-width: 55.4%;
+      height: 174.98px;
+    }
+    &__map{
+      position: absolute;
+      max-width: 52.95%;
+      height: 407.95px;
+      top: 70px;
+      right: 0;
+    }
+  }
+  &__text{
+    margin-left: 23.6%;
+    height: 250px;
+    width: 27.77%;
+    font-size: 1vw;
+    line-height: 26px;
+    color: #777777;
+  }
+  &__bottom{
+    margin: 0 18.75% 0 20.83%;
+    position: relative;
+    // width: 60.42%;
+    &__line{
+      background-image: url("images/line_bg.png");
+      background-repeat: no-repeat;
+      background-size: 100% 40px;
+      height: 40px;
+      width: auto;
+      text-align: center;
+      line-height: 38px;
+      color: white;
+      font-size: 1.4vw;
+    }
+    &__way{
+      width: 100%;
+      position: absolute;
+      top: 29px;
+      &__left{
+        max-width: 49.76%;
+        margin-right: 0.8%;
+        display: inline-block;
+      }
+      &__right{
+        max-width: 49.42%;
+        display: inline-block;
+      }
+    }
+  }
+}
+.page3{
+  height: 720px;
+  &__image{
+    width: 100%;
+    height: auto;
+  }
+  &__title{
+    text-align: center;
+    height: 90px;
+    margin-top: 50px;
+    font-size: 33px;
+    color: deepskyblue;
+  }
+  &__sub-title{
+    height: 76px;
+    text-align: center;
+    line-height: 30px;
+    color: #777777;
+  }
+  &__self-btn{
+    height: 50px;
+    width: 250px;
+    margin: 17px auto 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+    }
+  }
+  &__estimate-btn{
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+      color: #03A9F4;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+      font-weight: 100;
+      color: #555555;
+    }
+  }
+}
+.page4{
+  height: 720px;
+  &__image{
+    width: 100%;
+    height: auto;
+  }
+  &__title{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 33px;
+    color: deepskyblue;
+  }
+  &__sub-title{
+    height: 140px;
+    text-align: center;
+    line-height: 30px;
+    color: #777777;
+  }
+  &__emergency-btn{
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+    }
+  }
+  &__estimate-btn{
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+      color: #03A9F4;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+      font-weight: 100;
+      color: #555555;
+    }
+  }
+}
+.page5{
+  height: 690px;
+  &__image{
+    width: 100%;
+    height: auto;
+  }
+  &__title{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 33px;
+    color: deepskyblue;
+  }
+  &__sub-title{
+    height: 115px;
+    text-align: center;
+    line-height: 30px;
+    color: #777777;
+  }
+  &__list-btn{
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+    }
+  }
+}
+.page6{
+  height: 620px;
+  &__image{
+    width: 100%;
+    height: auto;
+  }
+  &__title{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 33px;
+    color: deepskyblue;
+  }
+  &__sub-title{
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: #777777;
+  }
+  &__estimate-btn{
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    .arrow-forward{
+      font-size: 18px;
+      line-height: 50px;
+      display: inline-block;
+    }
+    &__text{
+      vertical-align: top;
+      display: inline-block;
+      line-height: 50px;
+    }
+  }
+}
+.footer{
+  height: 80px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-around;
+  &__copyright{
+    line-height: 80px;
+    width: 430px;
+    font-size: 13px;
+    text-align: center;
+    color: #555555;
+    order: 1;
+  }
+  &__right{
+    display: flex;
+    width: 450px;
+    font-size: 13px;
+    line-height: 80px;
+    justify-content: space-between;
+    order: 2;
+    &__company{
+      color: #333333;
+      text-decoration: none;
+    }
+    &__line{
+      font-size: 15px;
+      color: #AAAAAA;
+    }
+    &__conditions{
+      color: #333333;
+      text-decoration: none;
+    }
+    &__privacy{
+      color: #333333;
+      text-decoration: none;
+    }
+    &__Inquiry{
+      color: #333333;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .page1{
+    height: 600px;
+    width: 100%;
+    background-position:center 10%;
+    background-size: 100% 400px;
+    &__header{
+      width: 90%;
+      margin: 0 auto;
+      &__left{
+        width: 22.1%;
+        margin-right: 5%;
+        &__logo{
+        }
+        &__name{
+          line-height: 48px;
+          margin-left: 4.5%;
+          width: 64%;
+          font-size: 1.1vw;
+          font-weight: 500;
+        }
+      }
+      &__right{
+        width: 74.8%;
+        &__list{
+          display: inline;
+          margin-right: 2.89%;
+          a {
+            font-size: 1vw;
+            text-decoration: none;
+            color: #333333;
+            line-height: 48px;
+          }
+        }
+      }
+    }
+    &__middle{
+      height: 400px;
+      &__sub{
+      }
+      &__title{
+        position: absolute;
+      }
+    }
+    &__notice{
+      padding-top: 15px;
+      &__title{
+      }
+      &__list1{
+      }
+    }
+  }
+  .page2{
+    height: 730px;
+    background-color: #E0FFFF;
+    width: 100%;
+    &__image{
+      width: 90%;
+      margin: 0 3% 0 7%;
+      height: 150px;
+      &__title{
+        max-width: 56%;
+        height: auto;
+      }
+      &__map{
+        max-width: 60%;
+        height: auto;
+        top: 130px;
+      }
+    }
+    &__text{
+      margin-left: 10%;
+      height: 250px;
+      width: 36%;
+    }
+    &__bottom{
+      margin: 0 10%;
+      &__line{
+        background-size: 100% 30px;
+        height: 30px;
+        line-height: 30px;
+      }
+      &__way{
+        &__left{
+        }
+        &__right{
+        }
+      }
+    }
+  }
+  .page3{
+    height: 530px;
+    &__image{
+    }
+    &__title{
+      height: 80px;
+      margin-top: 40px;
+      font-size: 4vw;
+      line-height: 40px;
+    }
+    &__sub-title{
+      height: 76px;
+      font-size: 1.5vw;
+      color: #777777;
+    }
+    &__self-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+    &__estimate-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+  }
+  .page4{
+    height: 530px;
+    &__image{
+    }
+    &__title{
+      height: 40px;
+      margin-top: 40px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      height: 140px;
+      font-size: 1.5vw;
+    }
+    &__emergency-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+    &__estimate-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+  }
+  .page5{
+    height: 510px;
+    &__image{
+    }
+    &__title{
+      height: 40px;
+      margin-top: 40px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      font-size: 1.5vw;
+    }
+    &__list-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+  }
+  .page6{
+    height: 460px;
+    &__image{
+    }
+    &__title{
+      height: 40px;
+      margin-top: 40px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      font-size: 1.5vw;
+    }
+    &__estimate-btn{
+      .arrow-forward{
+      }
+      &__text{
+      }
+    }
+  }
+  .footer{
+    height: 120px;
+    background-color: #EEEEEE;
+    display: block;
+    &__copyright{
+      line-height: 60px;
+      width: 50%;
+      font-size: 1vw;
+      height: 60px;
+      margin: 0 auto;
+    }
+    &__right{
+      display: flex;
+      width: 60%;
+      margin: 0 auto;
+      font-size: 13px;
+      line-height: 60px;
+      height: 60px;
+      &__company{
+      }
+      &__line{
+      }
+      &__conditions{
+      }
+      &__privacy{
+      }
+      &__Inquiry{
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  .page1{
+    height: 420px;
+    width: 100%;
+    background-position:center 21%;
+    background-size: 500px auto;
+    &__header{
+      display: block;
+      width: 90%;
+      height: 40px;
+      margin: 0 5%;
+      padding-top: 20px;
+      &__left{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        &__logo{
+          width: 20%;
+        }
+        &__name{
+          line-height: 13px;
+          margin-left: 5%;
+          width: 64%;
+          font-size: 1.1vw;
+          font-weight: 500;
+        }
+      }
+      &__right{
+        width: 100%;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        &__list{
+          display: inline;
+          margin-right: 2.89%;
+          font-size: 3px;
+          a {
+            font-size: 0.1vw;
+            text-decoration: none;
+            color: #333333;
+            line-height: 48px;
+          }
+        }
+      }
+    }
+    &__middle{
+      height: 215px;
+      width: 65.2%;
+      margin: 0 auto;
+      position: relative;
+      &__sub{
+        position: absolute;
+        bottom: 24%;
+        max-width: 33%;
+      }
+      &__title{
+        position: absolute;
+        top: 73%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    &__notice{
+      height: 100px;
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      padding-top: 10px;
+      &__title{
+        font-size: 1vw;
+        margin-right: 4.76%;
+        margin-bottom: 10px;
+        color: deepskyblue;
+      }
+      &__list1{
+        font-size: 0.1px;
+        font-weight: 100;
+        margin-bottom: 8px;
+        color: #666666;
+        list-style: none;
+        &__date{
+
+        }
+        &__text{
+
+        }
+      }
+    }
+  }
+  .page2{
+    height: 700px;
+    background-color: #E0FFFF;
+    width: 100%;
+    &__image{
+      margin: 0 auto;
+      padding-top: 40px;
+      height: 280px;
+      &__title{
+        max-width: 80%;
+        height: auto;
+      }
+      &__map{
+        position: absolute;
+        max-width: 70%;
+        height: auto;
+        top: 120px;
+        right: 0;
+      }
+    }
+    &__text{
+      margin: 0 auto;
+      height: 220px;
+      width: 70%;
+      font-size: 1vw;
+      line-height: 26px;
+      color: #777777;
+    }
+    &__bottom{
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      &__line{
+        background-image: url("images/line_bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 30px;
+        height: 30px;
+        width: auto;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        font-size: 1.4vw;
+      }
+      &__way{
+        width: 100%;
+        position: absolute;
+        top: 29px;
+        &__left{
+          max-width: 49.76%;
+          margin-right: 0.8%;
+          display: inline-block;
+        }
+        &__right{
+          max-width: 49.42%;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .page3{
+    height: 420px;
+    &__image{
+      width: 100%;
+      height: auto;
+    }
+    &__title{
+      text-align: center;
+      height: 90px;
+      margin-top: 20px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      line-height: 20px;
+      width: 85%;
+      margin: 0 auto;
+    }
+    &__self-btn{
+      height: 50px;
+      width: 250px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #FFF;
+      background: #03A9F4;
+      border-radius: 4px;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+      font-weight: bold;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+      }
+    }
+    &__estimate-btn{
+      height: 40px;
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: none;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+        color: #03A9F4;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+        font-weight: 100;
+        color: #555555;
+      }
+    }
+  }
+  .page4{
+    height: 430px;
+    &__image{
+      width: 100%;
+      height: auto;
+    }
+    &__title{
+      text-align: center;
+      height: 30px;
+      margin-top: 30px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      height: 140px;
+      text-align: center;
+      line-height: 20px;
+      color: #777777;
+      font-size: 1vw;
+      width: 85%;
+      margin: 0 auto;
+    }
+    &__emergency-btn{
+      height: 50px;
+      width: 250px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #FFF;
+      background: #03A9F4;
+      border-radius: 4px;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+      font-weight: bold;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+      }
+    }
+    &__estimate-btn{
+      height: 40px;
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: none;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+        color: #03A9F4;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+        font-weight: 100;
+        color: #555555;
+      }
+    }
+  }
+  .page5{
+    height: 380px;
+    &__image{
+      width: 100%;
+      height: auto;
+    }
+    &__title{
+      height: 30px;
+      margin-top: 30px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      height: 115px;
+      width: 85%;
+      margin: 0 auto;
+      line-height: 20px;
+    }
+    &__list-btn{
+      height: 50px;
+      width: 250px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #FFF;
+      background: #03A9F4;
+      border-radius: 4px;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+      font-weight: bold;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+      }
+    }
+  }
+  .page6{
+    height: 300px;
+    &__image{
+      width: 100%;
+      height: auto;
+    }
+    &__title{
+      height: 30px;
+      margin-top: 30px;
+      font-size: 4vw;
+    }
+    &__sub-title{
+      height: 60px;
+      width: 85%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 20px;
+      color: #777777;
+    }
+    &__estimate-btn{
+      height: 50px;
+      width: 250px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #FFF;
+      background: #03A9F4;
+      border-radius: 4px;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+      font-weight: bold;
+      .arrow-forward{
+        font-size: 18px;
+        line-height: 50px;
+        display: inline-block;
+      }
+      &__text{
+        vertical-align: top;
+        display: inline-block;
+        line-height: 50px;
+      }
+    }
+  }
+  .footer{
+    height: 80px;
+    background-color: #EEEEEE;
+    display: block;
+    &__copyright{
+      line-height: 40px;
+      width: 90%;
+      font-size: 1vw;
+      height: 40px;
+      margin: 0 auto;
+    }
+    &__right{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1vw;
+      line-height: 40px;
+      height: 40px;
+      &__company{
+      }
+      &__line{
+      }
+      &__conditions{
+      }
+      &__privacy{
+      }
+      &__Inquiry{
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px){
+  .page2{
+    height: 700px;
+    background-color: #E0FFFF;
+    width: 100%;
+    &__image{
+      margin: 0 auto;
+      padding-top: 40px;
+      height: 280px;
+      &__title{
+        max-width: 80%;
+        height: auto;
+      }
+      &__map{
+        position: absolute;
+        max-width: 70%;
+        height: auto;
+        top: 120px;
+        right: 0;
+      }
+    }
+    &__text{
+      margin: 0 auto;
+      height: 220px;
+      width: 70%;
+      font-size: 1vw;
+      line-height: 22px;
+      color: #777777;
+    }
+    &__bottom{
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      &__line{
+        background-image: url("images/line_bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 30px;
+        height: 30px;
+        width: auto;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        font-size: 1.4vw;
+      }
+      &__way{
+        width: 100%;
+        position: absolute;
+        top: 29px;
+        &__left{
+          max-width: 49.76%;
+          margin-right: 0.8%;
+          display: inline-block;
+        }
+        &__right{
+          max-width: 49.42%;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
